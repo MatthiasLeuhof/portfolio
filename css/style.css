@@ -1,0 +1,107 @@
+/*Own styles here*/
+
+/*FONTS*/
+
+html {
+  font-family: "brandon-grotesque";
+}
+
+body {
+  font-family: "brandon-grotesque";
+  color: #1dc2ff;
+}
+
+/*HEADER*/
+
+.header {
+  background-color: white;
+}
+
+.logo {
+  background-image: url("../assets/images/logo-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+
+.navbar {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.navbar a {
+  font-weight: 900;
+}
+
+/*HERO SECTION*/
+
+.hero-text {
+  font-weight: 900;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+/*WORK SECTION*/
+
+.section {
+  height: 100vh;
+  position: relative;
+}
+
+.section-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section-title {
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.portfolio {
+  width: 100%;
+  padding: 0;
+}
+
+.case {
+  background-color: #1dc2ff;
+  color: white;
+}
+
+.section-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background: url("../assets/images/moodboard-foto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #333;
+  z-index: 2;
+}
+
+.section-block {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  top: 0;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-box-shadow: 0px -27px 72px -12px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0px -27px 72px -12px rgba(0,0,0,0.26);
+  box-shadow: 0px -27px 72px -12px rgba(0,0,0,0.26);
+}
+
+.blue {
+  background-color: #1dc2ff;
+}
+
+.white {
+  background-color: #ffffff;
+}
